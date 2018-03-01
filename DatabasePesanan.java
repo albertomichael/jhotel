@@ -20,4 +20,12 @@ public class DatabasePesanan
     {
         return null;
     }
+    
+    public String[] getPesananDatabase(){
+        return null;
+    }
+    
+    public void pesananDibatalkan(){
+        
+    }
 }

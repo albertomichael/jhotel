@@ -16,38 +16,48 @@ public class Pesanan
     private boolean isSelesai;
     
     public Pesanan(){
+        
     }
+    
+    
     
     public double getBiaya(){
     
-        return 0;
+        return biaya;
     }
     
     public Customer getPelanggan(){
-        return null;
+        return pelanggan;
     }
     public boolean getStatusDiproses(){
-        return false;
+        return isDiproses;
     }
     
     public boolean getStatusSelesai(){
-        return false;
+        return isSelesai;
     }
     
-    public double setBiaya(){
-        return 0;
+    public void setBiaya(double biaya){
+        this.biaya=biaya;
     }
     
-    public Customer setPelanggan(Customer baru){
-        return null;
+    public void setPelanggan(Customer baru){
+        baru=pelanggan;
     }
     
-    public boolean setStatusDiproses(boolean diproses){
-        return false;
+    public void setStatusDiproses(boolean diproses){
+        diproses=isDiproses;
     }
     
-    public boolean setStatusSelesai(boolean diproses){
-        return false;
+    public void setStatusSelesai(boolean diproses){
+        diproses=isSelesai;
     }
     
-}
+    public void printData(){
+        
+    }
+    
+    
+ }
+    
+

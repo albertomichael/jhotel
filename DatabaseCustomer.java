@@ -17,7 +17,7 @@ public class DatabaseCustomer
         return false;
     }
     
-    public String getCustomer()
+    public String[] getCustomer()
     {
         return null;
     }

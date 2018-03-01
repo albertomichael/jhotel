@@ -23,10 +23,14 @@ public class Customer
     }
     
     public void setID(int id){
-        return;
+       
     }
     
     public void setNama(String nama){
-        return;
+        
+    }
+    
+    public void printData(){
+        
     }
 }
