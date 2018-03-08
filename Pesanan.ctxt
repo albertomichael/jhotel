@@ -1,6 +1,6 @@
 #BlueJ class context
-comment0.params=
-comment0.target=Pesanan()
+comment0.params=biaya\ pelanggan
+comment0.target=Pesanan(double,\ Customer)
 comment1.params=
 comment1.target=double\ getBiaya()
 comment2.params=
@@ -13,9 +13,9 @@ comment5.params=biaya
 comment5.target=void\ setBiaya(double)
 comment6.params=baru
 comment6.target=void\ setPelanggan(Customer)
-comment7.params=diproses
+comment7.params=isDiproses
 comment7.target=void\ setStatusDiproses(boolean)
-comment8.params=diproses
+comment8.params=isSelesai
 comment8.target=void\ setStatusSelesai(boolean)
 comment9.params=
 comment9.target=void\ printData()

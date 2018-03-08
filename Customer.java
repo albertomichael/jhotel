@@ -2,35 +2,37 @@
 /**
  * Write a description of class Customer here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Alberto Michael Tambunan 
+ * @version 6 Maret
  */
-public class Customer
+public class Customer  //membuat kelas Customer
 {
     protected int id;
     protected String nama;
     
     public Customer(int id, String nama){
+        this.id=id;
+        this.nama=nama;
         
     }
     
     public int getID(){
-        return 0;
+        return id;// mengembalikian id
     }
     
     public String getNama(){
-        return null;
+        return nama;//mengembalikan nama
     }
     
     public void setID(int id){
-       
+       this.id=id;//mengeset id
     }
     
     public void setNama(String nama){
-        
+       this.nama=nama; 
     }
     
     public void printData(){
-        
+        System.out.println(nama);
     }
 }

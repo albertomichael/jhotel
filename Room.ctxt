@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=status_kamar
+comment0.target=void\ setStatusKamar(StatusKamar)
+comment1.params=pesan
+comment1.target=void\ setPesanan(Pesanan)
+numComments=2

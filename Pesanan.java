@@ -15,8 +15,9 @@ public class Pesanan
     private boolean isDiproses;
     private boolean isSelesai;
     
-    public Pesanan(){
-        
+    public Pesanan(double biaya,Customer pelanggan){
+        this.biaya=biaya;
+        this.pelanggan=pelanggan;
     }
     
     
@@ -45,16 +46,16 @@ public class Pesanan
         baru=pelanggan;
     }
     
-    public void setStatusDiproses(boolean diproses){
-        diproses=isDiproses;
+    public void setStatusDiproses(boolean isDiproses){
+       //diproses=isDiproses;
     }
     
-    public void setStatusSelesai(boolean diproses){
-        diproses=isSelesai;
+    public void setStatusSelesai(boolean isSelesai){
+       // diproses=isSelesai;
     }
     
     public void printData(){
-        
+        System.out.println(biaya);
     }
     
     

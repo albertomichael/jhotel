@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=pesan\ kamar
+comment0.target=void\ pesananDitugaskan(Pesanan,\ Room)
+comment1.params=pesan\ kamar
+comment1.target=void\ roomAmbilPesanan(Pesanan,\ Room)
+numComments=2

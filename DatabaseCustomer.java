@@ -2,7 +2,7 @@
 /**
  * Write a description of class DatabaseCustomer here.
  * 
- * @author (your name) 
+ * @author (Alberto Michael Tambunan) 
  * @version (a version number or a date)
  */
 public class DatabaseCustomer
