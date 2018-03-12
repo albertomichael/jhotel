@@ -33,6 +33,6 @@ public class Customer  //membuat kelas Customer
     }
     
     public void printData(){
-        System.out.println(nama);
+        System.out.println(id + nama);
     }
 }

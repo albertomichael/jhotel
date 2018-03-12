@@ -45,7 +45,7 @@ public class Lokasi
     }
     
     public void printData(){
-        System.out.println(deskripsiLokasi);
+        System.out.printf("%.2f ,%.2f",x_coord,y_coord);
     }
 }
 

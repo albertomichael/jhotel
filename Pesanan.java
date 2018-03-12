@@ -43,7 +43,7 @@ public class Pesanan
     }
     
     public void setPelanggan(Customer baru){
-        baru=pelanggan;
+        this.pelanggan=baru;
     }
     
     public void setStatusDiproses(boolean isDiproses){
@@ -55,7 +55,13 @@ public class Pesanan
     }
     
     public void printData(){
-        System.out.println(biaya);
+        System.out.println("biaya "+biaya);
+        System.out.println("pelanggan "+pelanggan.nama);
+        //System.out.println("Tipe Kamar "+);
+        System.out.println("Status Selesai "+isSelesai);
+        System.out.println("Status Diproses "+isDiproses);
+        
+        
     }
     
     

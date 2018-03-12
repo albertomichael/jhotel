@@ -15,7 +15,7 @@ public enum StatusKamar
     
     private String deskripsi;
     
-    StatusKamar(String deskkripsi){
+    StatusKamar(String deskripsi){
         this.deskripsi=deskripsi;
     }
 }
