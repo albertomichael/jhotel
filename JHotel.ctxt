@@ -1,8 +1,6 @@
 #BlueJ class context
-comment0.params=args
-comment0.target=void\ main(java.lang.String[])
-comment1.params=
-comment1.target=JHotel()
-comment2.params=
-comment2.target=void\ printData()
-numComments=3
+comment0.params=
+comment0.target=JHotel()
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

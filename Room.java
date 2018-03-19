@@ -5,17 +5,81 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Room
+
+public abstract class Room
 {
     private Hotel hotel;
-    private int id;
     private String nomor_kamar;
     private boolean isAvailable;
-    private Customer customer;
-    private double dailyTarif;
+    protected double dailyTariff;
     private StatusKamar status_kamar;
     private Pesanan pesan;
+    private TipeKamar tipe_kamar;
     
+    
+    
+    
+    
+    public Room(Hotel hotel,String nomor_kamar,boolean isAvailable,
+    StatusKamar status_kamar){
+        this.hotel=hotel;
+        this.nomor_kamar=nomor_kamar;
+        this.isAvailable=isAvailable;
+        this.status_kamar=status_kamar;
+    }
+    
+    public Hotel getHotel(){
+       return hotel;
+     }
+    
+        
+    public String getNomorKamar(){
+        return nomor_kamar;
+    }
+    
+    public boolean getStatusAvailable(){
+        return isAvailable;
+    }
+    
+    
+    
+    public double getDailyTarif(){
+        return dailyTariff;
+    }
+    
+    public StatusKamar getStatusKamar(){
+        return status_kamar;
+    }
+    
+    public Pesanan getPesanan(){
+        return pesan;
+    }
+    
+    public abstract TipeKamar getTipeKamar();
+        
+    
+    
+    
+   
+    public void setHotel(Hotel hotel){
+        this.hotel=hotel;
+    }
+    
+    
+    
+    public void setNomorKamar(String nomor_kamar){
+        this.nomor_kamar=nomor_kamar;
+    }
+    
+    public void setStatusAvailable(boolean isAvailable){
+        this.isAvailable=isAvailable;
+    }
+    
+    
+    
+    public void setDailyTarif(double dailyTariff){
+        this.dailyTariff=dailyTariff;
+    }
     public void setStatusKamar(StatusKamar status_kamar){
         this.status_kamar=status_kamar;
     }
@@ -25,7 +89,13 @@ public class Room
     }
     
     public void printData(Hotel hotel){
-     // System.out.println(nomor_kamar,isAvailable);
+     System.out.println("Room");
+        System.out.println("Nama Hotel\t: " + hotel.getNama());
+        System.out.println("Nomor Kamar\t: " + nomor_kamar);
+        System.out.println("Tersedia\t: " + isAvailable);
+        System.out.println("Harga\t\t: " + dailyTariff);
+        System.out.println("Status Kamar\t: " + status_kamar.toString());
+        System.out.println("Tipe Kamar\t: " + getTipeKamar().toString());
     }
     
     

@@ -33,6 +33,8 @@ public class Customer  //membuat kelas Customer
     }
     
     public void printData(){
-        System.out.println(id + nama);
+         System.out.println("Data Pelanggan");
+        System.out.println("ID Pelanggan  : "+id); 
+        System.out.println("Nama Pelanggan: "+ nama);
     }
 }

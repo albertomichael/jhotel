@@ -7,26 +7,42 @@
  */
 public class JHotel
 {
-    public static void main(String[] args){
-        Customer obj1=new Customer(12,"Michael");
-        Lokasi lok1=new Lokasi(2,3,"Depok");
-        Hotel hotel1=new Hotel("DEHOTEL",lok1,5);
-        Pesanan psn1=new Pesanan(200,obj1);
-        
-        obj1.printData();
-        hotel1.printData();
-        obj1.setNama("Albert");
-        obj1.printData();
-        
-        
-    }
-
     public JHotel(){
 
     }
-
-    public void printData(){
     
-    }
+public static void main(String[] args){
+        System.out.println("Welcome");
+        Lokasi lokasi1=new Lokasi(200,300,"Depok");
+        Customer pelanggan1=new Customer(23,"Michael");
+        Hotel hotel1=new Hotel("Dehotel",lokasi1,5);
+        Room room1=new Room(hotel1,"103",true,pelanggan1,200000,StatusKamar.Booked);
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+    
+}
+
+
+    
+
+    
 
 }

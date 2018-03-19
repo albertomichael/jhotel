@@ -12,6 +12,11 @@ public class Hotel
     private Lokasi lokasi;
     private int bintang;
     
+    
+    
+    
+    
+    
     public Hotel(String nama, Lokasi lokasi, int bintang){
         this.nama=nama;
         this.lokasi=lokasi;
@@ -43,6 +48,10 @@ public class Hotel
     }
     
     public void printData(){
-        System.out.println(nama);
+        System.out.println("Data Hotel");
+        System.out.println("Nama Hotel   :"+nama);
+        //System.out.println("Lokasi       :"+lokasi);
+        System.out.println("Bintang      :"+bintang);
+        
     }
 }
