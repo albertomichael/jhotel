@@ -1,8 +1,8 @@
-
+import java.util.Date;
 /**
  * Write a description of class Pesanan here.
  * 
- * @author (your name) 
+ * @author Alberto Michael 
  * @version (a version number or a date)
  */
 public class Pesanan
@@ -16,6 +16,7 @@ public class Pesanan
     private boolean isDiproses;
     private boolean isSelesai;
     private Room kamar;
+    private Date tanggalPesan;
     
     /**
      * @param biaya ,pelanggan
@@ -53,6 +54,11 @@ public class Pesanan
         return isSelesai;
     }
     
+    public Date getTanggalPesan(){
+        return tanggalPesan;
+    }
+    
+    
     public void setBiaya(double biaya){
         this.biaya=biaya;
         biaya=kamar.getDailyTarif()*jumlahHari;
@@ -78,6 +84,15 @@ public class Pesanan
     
     public void setStatusSelesai(boolean selesai){
        // diproses=isSelesai;
+    }
+    
+    public void setTanggalPesan(Date tanggalPesan){
+        this.tanggalPesan=tanggalPesan;
+       
+    }
+    
+    public String toString(){
+        return null;
     }
     
     public void printData(){

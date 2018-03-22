@@ -2,7 +2,7 @@
 /**
  * Write a description of class DatabaseRoom here.
  * 
- * @author (your name) 
+ * @author Alberto Michael  
  * @version (a version number or a date)
  */
 public class DatabaseRoom

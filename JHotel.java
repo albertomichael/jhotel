@@ -16,9 +16,9 @@ public static void main(String[] args){
         Lokasi lokasi1=new Lokasi(200,300,"Depok");
         Customer pelanggan1=new Customer(23,"Michael");
         Hotel hotel1=new Hotel("Dehotel",lokasi1,5);
-        Room room1=new Room(hotel1,"103",true,pelanggan1,200000,StatusKamar.Booked);
+       // Room room1=new Room(hotel1,"103",true,pelanggan1,200000,StatusKamar.Booked);
         
-        
+        // new object
         
         
         

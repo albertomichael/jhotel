@@ -7,7 +7,7 @@
  */
 public class Hotel
 {
-    // instance variables - replace the example below with your own
+    
     private String nama;
     private Lokasi lokasi;
     private int bintang;
@@ -16,12 +16,16 @@ public class Hotel
     
     
     
-    
+    /*@param nama
+     * @param lokasi
+     * @param bintang
+     */
     public Hotel(String nama, Lokasi lokasi, int bintang){
         this.nama=nama;
         this.lokasi=lokasi;
         this.bintang=bintang;
     }
+    
     
     public int getBintang(){
         return bintang;

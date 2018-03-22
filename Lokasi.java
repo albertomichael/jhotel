@@ -2,7 +2,7 @@
 /**
  * Write a description of class Lokasi here.
  * 
- * @author (your name) 
+ * @author Alberto Michael
  * @version (a version number or a date)
  */
 public class Lokasi
@@ -44,6 +44,9 @@ public class Lokasi
         this.deskripsiLokasi=deskripsiLokasi;
     }
     
+    public String toString(){
+        return null;
+    }
     public void printData(){
         System.out.println("Informasi Lokasi");
         System.out.printf("coordinat : %.2f ,%.2f\n",x_coord,y_coord);

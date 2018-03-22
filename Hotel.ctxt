@@ -1,6 +1,7 @@
 #BlueJ class context
 comment0.params=nama\ lokasi\ bintang
 comment0.target=Hotel(java.lang.String,\ Lokasi,\ int)
+comment0.text=@param\ nama\r\n\ @param\ lokasi\r\n\ @param\ bintang\r\n
 comment1.params=
 comment1.target=int\ getBintang()
 comment2.params=

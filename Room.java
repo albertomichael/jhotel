@@ -14,7 +14,7 @@ public abstract class Room
     protected double dailyTariff;
     private StatusKamar status_kamar;
     private Pesanan pesan;
-    private TipeKamar tipe_kamar;
+    //private TipeKamar tipe_kamar;
     
     
     
@@ -86,6 +86,10 @@ public abstract class Room
     
     public void setPesanan(Pesanan pesan){
         this.pesan=pesan;
+    }
+    
+    public String toString(){
+        return null;
     }
     
     public void printData(Hotel hotel){

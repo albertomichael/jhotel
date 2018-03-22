@@ -2,7 +2,7 @@
 /**
  * Write a description of class DatabasePesanan here.
  * 
- * @author (your name) 
+ * @author Alberto Michael 
  * @version (a version number or a date)
  */
 public class DatabasePesanan

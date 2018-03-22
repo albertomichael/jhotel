@@ -7,7 +7,7 @@
  */
 public class DatabaseCustomer
 {
-    // instance variables - replace the example below with your own
+   
     private String[] list_customer;
     
     public boolean addCustomer(Customer baru){
