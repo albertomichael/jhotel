@@ -1,6 +1,0 @@
-#BlueJ class context
-comment0.params=hotel\ nomor_kamar\ isAvailable\ status_kamar
-comment0.target=SingleRoom(Hotel,\ java.lang.String,\ boolean,\ StatusKamar)
-comment1.params=
-comment1.target=TipeKamar\ getTipeKamar()
-numComments=2

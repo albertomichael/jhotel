@@ -1,8 +1,0 @@
-#BlueJ class context
-comment0.params=baru
-comment0.target=boolean\ addHotel(Hotel)
-comment1.params=id
-comment1.target=boolean\ removeHotel(int)
-comment2.params=
-comment2.target=java.lang.String[]\ getHotelDatabase()
-numComments=3
