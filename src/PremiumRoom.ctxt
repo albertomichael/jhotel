@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=hotel\ nomor_kamar\ isAvailable\ status_kamar
+comment0.target=PremiumRoom(Hotel,\ java.lang.String,\ boolean,\ StatusKamar)
+comment1.params=
+comment1.target=TipeKamar\ getTipeKamar()
+comment2.params=
+comment2.target=double\ getDiscount()
+comment3.params=dailytarif
+comment3.target=void\ setDailyTarif(double)
+numComments=4
