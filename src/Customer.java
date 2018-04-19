@@ -13,7 +13,7 @@ public class Customer  //membuat kelas Customer
     protected String nama;
     protected String email;
     protected Date dob;
-    public Customer(int id, String nama){
+    public Customer(int id, String nama,int tanggal,int bulan,int tahun,String email){
         this.id=id;
         this.nama=nama;
         

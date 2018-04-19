@@ -19,12 +19,26 @@ public class DatabasePesanan
     public int getLastPesananID(){
         return LAST_PESANAN_ID;
     }
-    
+
+
+    //ADD PESANAN
     public boolean addPesanan(Pesanan baru){
-        return false;
+
+        for(Pesanan daftar :PESANAN_DATABASE){
+        if(baru.getPelanggan().equals(baru.getPelanggan()))
+        {
+            throw new PesananSudahAdaException(daftar);
+        }
+
+        return true;
     }
+
+
+
     
     public boolean removePesanan(Pesanan pesan){
+
+        }
         return false;
     }
     

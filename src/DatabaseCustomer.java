@@ -12,6 +12,7 @@ public class DatabaseCustomer
     
     public boolean addCustomer(Customer baru){
         return false;
+
     }
     public boolean removeCustomer(int id){
         return false;
@@ -21,6 +22,8 @@ public class DatabaseCustomer
     {
         return null;
     }
+
+
     
     
     
