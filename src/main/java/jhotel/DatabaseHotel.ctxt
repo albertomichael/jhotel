@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=DatabaseHotel()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ DatabaseHotel\r\n
+comment1.params=
+comment1.target=java.util.ArrayList\ getHotelDatabase()
+comment1.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\r\n\r\n
+comment2.params=
+comment2.target=int\ getLastHotelID()
+comment3.params=baru
+comment3.target=boolean\ addHotel(Hotel)
+comment4.params=id
+comment4.target=Hotel\ getHotel(int)
+comment5.params=id
+comment5.target=boolean\ removeHotel(int)
+numComments=6

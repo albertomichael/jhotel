@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=tipeKamar
+comment0.target=TipeKamar(java.lang.String)
+comment0.text=\r\n\ Method\ untuk\ mengatur\ tipe\ kamar\r\n\ @param\ tipeKamar\r\n
+comment1.params=
+comment1.target=java.lang.String\ toString()
+comment1.text=\r\n\ method\ untuk\ mengambil\ tipe\ kamar\r\n\ @return\ tipeKamar\r\n
+numComments=2

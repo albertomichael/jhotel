@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=DatabasePesanan()
+comment0.text=\r\n\ Constructor\ untuk\ objek\ pada\ kelas\ DatabasePesanan\r\n
+comment1.params=
+comment1.target=java.util.ArrayList\ getPesananDatabase()
+comment1.text=\r\n\ method\ kelas\ DatabasePesanan\r\n
+comment2.params=
+comment2.target=int\ getLastPesananID()
+comment3.params=baru
+comment3.target=boolean\ addPesanan(Pesanan)
+comment4.params=id
+comment4.target=Pesanan\ getPesanan(int)
+comment5.params=kamar
+comment5.target=Pesanan\ getPesanan(Room)
+comment6.params=pelanggan
+comment6.target=Pesanan\ getPesananAktif(Customer)
+comment7.params=pesan
+comment7.target=boolean\ removePesanan(Pesanan)
+numComments=8

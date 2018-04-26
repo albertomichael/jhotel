@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=x_coord\ y_coord\ deskripsiLokasi
+comment0.target=Lokasi(float,\ float,\ java.lang.String)
+comment0.text=\r\n\ Constructor\ untuk\ objek\ pada\ kelas\ Lokasi\r\n
+comment1.params=
+comment1.target=float\ getX()
+comment1.text=\r\n\ method\ untuk\ mengambil\ nilai\ pada\ koordinat\ sumbu\ x\r\n\ @return\ x_coord\r\n
+comment2.params=
+comment2.target=float\ getY()
+comment2.text=\r\n\ method\ untuk\ mengambil\ nilai\ pada\ koordinat\ sumbu\ y\r\n\ @return\ y_coord\r\n
+comment3.params=
+comment3.target=java.lang.String\ getDeskripsi()
+comment3.text=\r\n\ method\ untuk\ mengambil\ data\ deskripsi\ lokasi\r\n\ @return\ deskripsilokasi\r\n
+comment4.params=x_coord
+comment4.target=void\ setX(float)
+comment4.text=\r\n\ method\ untuk\ dapat\ mengatur\ nilai\ koordinat\ sumbu\ x\r\n\ @param\ x_coord\r\n
+comment5.params=y_coord
+comment5.target=void\ setY(float)
+comment5.text=\r\n\ method\ untuk\ dapat\ mengatur\ nilai\ koordinat\ sumbu\ y\r\n\ @param\ y_coord\r\n
+comment6.params=deskripsi
+comment6.target=void\ setDeskripsi(java.lang.String)
+comment6.text=\r\n\ method\ untuk\ dapat\ mengatur\ data\ deskripsi\ lokasi\r\n\ @param\ deskripsi\r\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\r\n\ mencetak\ data\ lokasi\ berupa\ korrdinat\ sumbu\ x\ dan\ y\ juga\ deskripsi\ lokasi\r\n
+numComments=8

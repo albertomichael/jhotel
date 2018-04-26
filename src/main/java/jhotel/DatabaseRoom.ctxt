@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.util.ArrayList\ getRoomDatabase()
+comment1.params=
+comment1.target=DatabaseRoom()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ DatabaseRoom\r\n
+comment2.params=baru
+comment2.target=boolean\ addRoom(Room)
+comment2.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\r\n\r\n
+comment3.params=hotel\ nomor_kamar
+comment3.target=Room\ getRoom(Hotel,\ java.lang.String)
+comment4.params=hotel
+comment4.target=java.util.ArrayList\ getRoomsFromHotel(Hotel)
+comment5.params=
+comment5.target=java.util.ArrayList\ getVacantRooms()
+comment6.params=hotel\ nomor_kamar
+comment6.target=boolean\ removeRoom(Hotel,\ java.lang.String)
+numComments=7

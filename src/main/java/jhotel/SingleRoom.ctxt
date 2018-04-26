@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=hotel\ nomor_kamar
+comment0.target=SingleRoom(Hotel,\ java.lang.String)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ SingleRoom\r\n
+comment1.params=
+comment1.target=TipeKamar\ getTipeKamar()
+comment1.text=\r\n\ method\ tipekamar\r\n\ @return\ \ \ \ TIPE_KAMAR\r\n
+numComments=2

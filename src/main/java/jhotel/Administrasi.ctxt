@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Administrasi()
+comment0.text=\r\n\ Constructor\ untuk\ objek\ pada\ kelas\ Administrasi\r\n
+comment1.params=pesan\ kamar
+comment1.target=void\ pesananDitugaskan(Pesanan,\ Room)
+comment1.text=\r\n\ method\ untuk\ memproses\ kamar\ yang\ akan\ di-assign\r\n\ @param\ pesan,\ kamar\r\n
+comment2.params=kamar
+comment2.target=void\ pesananDibatalkan(Room)
+comment2.text=\r\n\ mehod\ untuk\ mengubah\ status\ kamar\ karena\ pesanan\ dibatalkan\r\n\ @param\ kamar\r\n
+comment3.params=kamar
+comment3.target=void\ pesananSelesai(Room)
+comment3.text=\r\n\ method\ untuk\ mengubah\ status\ kamar\ karena\ pesanan\ telah\ selesai\r\n\ @param\ kamar\r\n
+comment4.params=pesan
+comment4.target=void\ pesananDibatalkan(Pesanan)
+comment4.text=\r\n\ method\ untuk\ mengubah\ status\ pesanan\ karena\ pesanan\ dibatalkan\r\n\ @param\ pesan\r\n
+comment5.params=pesan
+comment5.target=void\ pesananSelesai(Pesanan)
+comment5.text=\r\n\ method\ untuk\ mengubah\ status\ pesanan\ karena\ pesanan\ telah\ selesai\r\n\ @param\ pesan\r\n
+numComments=6

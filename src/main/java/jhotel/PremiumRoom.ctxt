@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=hotel\ nomor_kamar
+comment0.target=PremiumRoom(Hotel,\ java.lang.String)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ DoubleRoom\r\n
+comment1.params=
+comment1.target=TipeKamar\ getTipeKamar()
+comment1.text=\r\n\ method\ tipekamar\r\n\ @return\ \ \ \ TIPE_KAMAR\r\n
+comment2.params=
+comment2.target=double\ getDiscount()
+comment2.text=\r\n\ method\r\n\ @param\r\n
+comment3.params=dailytariff
+comment3.target=void\ setDailyTariff(double)
+comment3.text=\r\n\ method\r\n\ @param\r\n
+numComments=4
